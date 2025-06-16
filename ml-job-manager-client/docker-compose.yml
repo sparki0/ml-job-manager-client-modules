@@ -1,0 +1,9 @@
+services:
+  ml-job-client:
+    image: ml-job-manager-client
+    container_name: ml-job-manager-client
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "10300:10300"
