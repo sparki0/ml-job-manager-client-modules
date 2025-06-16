@@ -10,6 +10,13 @@ Contains following modules:
 - **Preprocessing** - transforms and scales spectra.
 - **Dimensionality reduction** - visualize high-dimensional data in 2D using t-SNE.
 
+This modules works with LAMOST DR2 spectra, if you want to use another spectra from other sources. You need to update preprocessing module, namely reading raw data from the file.
+
+In active learning module CNN developed by Ing. Ondřej Podsztavek is used.
+
+- [CNN source code](https://github.com/podondra/active-cnn).
+- [Article](https://www.aanda.org/articles/aa/abs/2020/11/aa36090-19/aa36090-19.html).
+
 # Tech Stack
 
 `Tensorflow  2.16.2 [CUDA]`
